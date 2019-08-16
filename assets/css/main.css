@@ -1,0 +1,42 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 64px;
+	background: linear-gradient(to bottom, red, pink, white);
+
+
+}
+
+a {
+	color:red;
+}
+
+div {
+	position:center;
+}
+
+.main {
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:auto;
+	color:#0FA0B0;
+	text-align:center;
+	font-family:"Verdana",Geneva,sans-serif; 
+	font-size:100px;
+}
+
+.block {
+	display: inline-block;
+	padding: 20px;
+	width:200px;
+	background-color:black;
+	color:#fff;
+}
+
+.centerblock {
+	width:500px;
+	margin: auto;
+}
+
+.centerblock img {
+	width: 100%;
+}
