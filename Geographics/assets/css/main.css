@@ -1,0 +1,102 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:cyan;
+}
+
+/*red, lime, blue, cyan, magenta, yellow, grey*/
+
+.ip {
+	width:100vw;
+	height:100vh;
+	background-color: pink;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.ip-text{
+	font-size: 17vw;
+	color:grey;
+	font-family: Georgina;
+}
+
+
+.checkers {
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.checkers-cyan {
+	flex:0 0 50%;
+	height: 50vh;
+	background-color: cyan;
+}
+
+.checkers-blue {
+	flex:0 0 50%;
+	height: 50vh;
+	background-color: blue;
+}
+
+.checkers-type {
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.checkers-text {
+	color:white;
+	font-size: 10vw;
+	border: 1.9vw solid line;
+	border-radius: 2vw;
+	padding:5vw;
+
+}
+
+.user {
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	background-color: black;
+}
+
+.avatar {
+	width: 30vw;
+	height: 30vw;
+	background-color: yellow;
+	background-image: radial-gradient(yellow, red);
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.letter {
+	font-size: 15vw;
+	color: black;
+	
+}
+
+.terra-tv {
+	background-size: 
+}
+
+
+
+
+
+
+
