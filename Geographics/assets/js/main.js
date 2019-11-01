@@ -9,3 +9,9 @@ for(var i = 0; i < lines.length; i++) {
   })(lines[i], i*500);
   
 }
+
+
+$(document).ready(function(){
+  $('#title').focus();
+    $('#text').autosize();
+});

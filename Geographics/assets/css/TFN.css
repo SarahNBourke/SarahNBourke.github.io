@@ -12,19 +12,21 @@ a {
 
 .TFN {
 	font-family: Times New Roman,serif;
-	font-size: 100px;
+	font-size: 300%;
 	color: black;
-	margin-top:300px;
+	top:37%;
+	left:20%;
 	display: flex;
 	align-items:center;
 	justify-content: center;
+	position: fixed;
 }
 
 .redact {
-	width: 2px;
-	height: 150px;
+	width: 2vw;
+	height: 20vh;
 	background-color: black;
-	top:40%;
+	top:35%;
 	left: 20%;
 	position: absolute;
 	z-index: 7;
@@ -33,7 +35,7 @@ a {
 
 @keyframes pulse_animation {
     0% { transform: scale(1,1); }
-    50% { transform: scale(400,1); }
+    50% { transform: scale(25,1); }
     100% { transform: scale(1,1); }
 
 }
@@ -59,7 +61,7 @@ a {
 
  .Question {
 	font-family: impact,sans-serif;
-	font-size: 70px;
+	font-size: 200%;
 	color: white;
 	letter-spacing: 8px;
 	-webkit-transform:scale(1.2,1.5);
@@ -71,8 +73,8 @@ a {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 	margin-top:250px;
-	left:180px;
-	position:absolute;
+	left:20%;
+	position:fixed;
 	z-index: 10;
 	display: flex;
 	align-items:center;
@@ -81,25 +83,25 @@ a {
  }
 
  .continue{
- 	width:400px;
- 	height:70px;
+ 	width:30vw;
+ 	height:10vh;
  	background-color: black;
- 	position:absolute;
+ 	position:fixed;
 	z-index: 11;
 	left:35%;
-	top:500px;
+	top:70%;
 	animation: apear 2s infinite;
  }
 
  .continue-text{
 	font-family: Helvetica,sans-serif;
-	font-size: 30px;
+	font-size: 120%;
 	letter-spacing: 3px;
 	color: white;
 	display: flex;
 	align-items:center;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 5%;
  }
 
 
